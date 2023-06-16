@@ -1,0 +1,85 @@
+.banner{
+
+    background: url('../img/fundonovo.gif');
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 50vh;
+
+}
+
+ .perfil{
+
+    border-radius: 50%;
+
+    border-color: white solid 0.5rem ;
+
+    height: 16rem;
+
+    width: 16rem;
+
+ }
+
+ .myName{
+
+    font-size: 300%;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    color: beige;
+
+ }
+
+ .col-5{
+
+    margin-top: 4%;
+
+    margin-left: 15%;
+
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+
+ .progress{
+
+    background-color: rgba(40, 1, 119, 0.878);
+
+    color: bisque;
+
+    height: 14%;
+
+ }
+
+@media (max-width: 575.98px) {
+
+    .banner{
+
+        background-position: right;
+
+        height: 100vh;
+
+    }
+
+    .perfil{
+
+        background-position: right;
+
+        height: 80vh;
+
+     }
+
+     .myName{
+
+      background-position: right;
+
+        height: 80vh;
+
+   }
+
+ }
+
+tem menu de contexto
