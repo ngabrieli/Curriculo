@@ -1,0 +1,95 @@
+.banner{
+
+    background: url('../img/fundo.png');
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 55vh;
+
+    backdrop-filter: brightness(40%);
+
+}
+
+
+
+
+.perfil-main{
+
+    height: 3cm;
+    width: 30%;
+
+    border-radius: 3%;
+
+    border: white solid 0.3rem;
+
+}
+
+
+
+
+.myName{
+
+    align-items: top;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    .banner{
+
+        background-position: right;
+
+        height: 100vh;
+
+    }
+
+    .perfil{
+
+        height: 100%;
+
+    }
+
+ }
+
+
+
+
+ @media (min-width: 577px) and (max-width: 1200px){
+
+    .banner{
+
+        background-position: right;
+
+        height: 100vh;
+
+    }
+
+    .perfil{
+
+        height: 100%;
+
+    }
+
+ }
+
+
+
+
+ .progress{
+
+    box-shadow: 10px 8px 3px rgb(219, 219, 219);
+
+ }
